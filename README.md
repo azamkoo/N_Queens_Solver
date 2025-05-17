@@ -13,3 +13,7 @@ Additionally, a graphical user interface (GUI) built with `Tkinter` allows users
 - Choose between Backtracking or Genetic Algorithm through the GUI  
 - Graphical display of solutions showing queen placements on the chessboard  
 - Navigate through multiple solutions using "Previous Solution" and "Next Solution" buttons 
+
+## Requirements
+- Python 3.6 or higher  
+- Tkinter library (usually included by default with Python)  
