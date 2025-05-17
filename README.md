@@ -7,3 +7,9 @@ This project provides two algorithms to solve the N-Queens problem:
 - Approximate **Genetic Algorithm**  
 
 Additionally, a graphical user interface (GUI) built with `Tkinter` allows users to visualize solutions interactively.
+
+## Features
+- Solve the N-Queens problem for any N between 1 and 20  
+- Choose between Backtracking or Genetic Algorithm through the GUI  
+- Graphical display of solutions showing queen placements on the chessboard  
+- Navigate through multiple solutions using "Previous Solution" and "Next Solution" buttons 
