@@ -3,14 +3,14 @@ from tkinter import messagebox
 from backtracking import solve_n_queens
 from genetic import solve_n_queens_genetic
 
-CELL_SIZE = 50  # اندازه هر خانه
+CELL_SIZE = 50 
 
 class NQueensGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("N-Queens Solver")
 
-        # انتخاب الگوریتم
+        
         self.algo_var = tk.StringVar(value="backtracking")
         tk.Label(root, text="Select Algorithm:").pack()
 
@@ -49,7 +49,7 @@ class NQueensGUI:
 
         self.canvas.delete("all")
 
-        # انتخاب الگوریتم بر اساس ورودی کاربر
+        
         if self.algo_var.get() == "backtracking":
             self.solutions = solve_n_queens(n)
         else:
