@@ -56,7 +56,7 @@ def solve_n_queens_genetic(n, population_size=100, max_generations=1000):
                 child = mutate(child)
                 children.append(child)
 
-                # نمایش فرزند و صفحه شطرنج آن
+               
                 print(f"generetion {generation} - child {len(children)}: {child}")
               
 
@@ -64,7 +64,7 @@ def solve_n_queens_genetic(n, population_size=100, max_generations=1000):
 
     return []
 
-# مثال: اجرای حل مسأله برای n = 8
+
 solutions = solve_n_queens_genetic(8)
 
 if solutions:
